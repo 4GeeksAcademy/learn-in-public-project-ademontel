@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Agustin
+    last_name: Demontel
+    
+    # Define yourself in 4-5 words
+    motto: Sometimes you win, sometimes you learn.
+    
+    # Focus
+    focus: Set some goals, then demolish them.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have been working in the field of industrial safety and health since 2010. 
+      I have a background in industrial engineering and have always had a problem-solving oriented profile. 
+      Throughout my career, I’ve had encounters with information technology and programming, to the point where I started asking myself, 'Why don’t I dedicate myself to this?' So here I am!
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/ademontel.jpg
+
+    # Contact Information
+    email: agustindemontel@gmail.com #optional
+    phone: (+598) #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ademontel
+    
+    twitter: '' #optional
+    stack-overflow: 27248570/agustín-d # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: fluent-ish
+
+      - idiom: Portuguese
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Traveling
+
+      - item: Music
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Técnico Prevencionista
+      university: UTU
+      # optional
+      university_logo: http://sep.breatheco.de/src/static/utu.png
+      time: 2010 - 2012
+      details: |
+        Comprehensive safety and health risk management according to ISO 45001 standard. 
+        Continuous improvement cycle, hazard identification, risk assessment, 
+        and action plan. Legal advice on current regulations. Development and implementation of emergency and evacuation plans.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Técnico Prevencionista
+      time: 2012 - Present
+      company: Freelance
+      # optional
+      company_logo: 
+      details: |
+        Comprehensive safety and health risk management according to ISO 45001 standard. 
+        Continuous improvement cycle, hazard identification, risk assessment, 
+        and action plan. Legal advice on current regulations. Development and implementation of emergency and evacuation plans.
+
+          
+    - role: Web developer
+      time: 2007 - 2012
+      company: Freelance
+      # optional
+      company_logo: 
+      details: |
+        Front and back-end developement in html + css + mysql + PHP. 
+
+# Your project portfolio
+projects:
+    intro: >
+      Not yet, but willing to!
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 40%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: GIMP
+        level: 60%
+
+      - name: AutoCAD
+        level: 50%
